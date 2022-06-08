@@ -1,12 +1,14 @@
 # {{PROBLEM}} Multi-Class Design Recipe
 ## 1. Describe the Problem
-> As a user
-> So that I can bookmark my favorite URLs
-> I want to save a certain URL to a database
 
 > As a user
 > So that I can view the URL's I bookmarks 
 > I want to pull a list of all URLs from my database
+
+
+> As a user
+> So that I can bookmark my favorite URLs
+> I want to save a certain URL to a database
 
 > As a user
 > So that I can manage the URL's I bookmarks 
@@ -37,7 +39,11 @@ not everything. The diagram below uses asciiflow.com but you could also use exca
 
 
 
+So, it feels like the first things we need are:
 
+a Controller
+a Bookmark class
+A bookmark viewgem 
 
 
 

@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2022-06-08T15:57:47+01:00">2022-06-08T15:57:47+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2022-06-09T14:46:31+01:00">2022-06-09T14:46:31+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="red">
-  76.47%
+  80.0%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.79
+         0.89
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>34</b> relevant lines,
-    <span class="green"><b>26</b> lines covered</span> and
-    <span class="red"><b>8</b> lines missed. </span>
+    <b>35</b> relevant lines,
+    <span class="green"><b>28</b> lines covered</span> and
+    <span class="red"><b>7</b> lines missed. </span>
     (<span class="red">
-  76.47%
+  80.0%
 </span>
 )
   </div>
@@ -83,12 +83,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#192ee1763f9b20f38afcfebd00d4f3f4009c2a0e" class="src_link" title="lib/bookmark.rb">lib/bookmark.rb</a></td>
-            <td class="red strong cell--number t-file__coverage">66.67 %</td>
-            <td class="cell--number">15</td>
+            <td class="yellow strong cell--number t-file__coverage">85.71 %</td>
+            <td class="cell--number">16</td>
+            <td class="cell--number">7</td>
             <td class="cell--number">6</td>
-            <td class="cell--number">4</td>
-            <td class="cell--number">2</td>
-            <td class="cell--number">0.83</td>
+            <td class="cell--number">1</td>
+            <td class="cell--number">1.29</td>
             
           </tr>
         
@@ -364,8 +364,8 @@
   <div class="header">
     <h3>lib/bookmark.rb</h3>
     <h4>
-      <span class="red">
-  66.67%
+      <span class="yellow">
+  85.71%
 </span>
 
       lines covered
@@ -374,9 +374,9 @@
     
 
     <div class="t-line-summary">
-      <b>6</b> relevant lines.
-      <span class="green"><b>4</b> lines covered</span> and
-      <span class="red"><b>2</b> lines missed.</span>
+      <b>7</b> relevant lines.
+      <span class="green"><b>6</b> lines covered</span> and
+      <span class="red"><b>1</b> lines missed.</span>
     </div>
 
     
@@ -437,13 +437,24 @@
 
             
 
-            <code class="ruby">    connection = PG.connect(dbname: &#39;bookmark_manager&#39;)</code>
+            <code class="ruby">    connection_string = &#39;postgresql://paddydb:654654@localhost:5432/bookmark_manager&#39;</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="6">
+          <li class="covered" data-hits="2" data-linenumber="6">
+            <span class="hits">2</span>
             
+
+            
+
+            <code class="ruby">    connection = PG::Connection.new(connection_string)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="7">
+            <span class="hits">2</span>
             
 
             
@@ -453,7 +464,7 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="7">
+          <li class="missed" data-hits="0" data-linenumber="8">
             
             
 
@@ -464,7 +475,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="8">
+          <li class="never" data-hits="" data-linenumber="9">
             
             
 
@@ -475,7 +486,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="9">
+          <li class="never" data-hits="" data-linenumber="10">
             
             
 
@@ -486,7 +497,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="10">
+          <li class="never" data-hits="" data-linenumber="11">
             
             
 
@@ -497,7 +508,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="11">
+          <li class="never" data-hits="" data-linenumber="12">
             
             
 
@@ -508,7 +519,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="12">
+          <li class="never" data-hits="" data-linenumber="13">
             
             
 
@@ -519,7 +530,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="13">
+          <li class="never" data-hits="" data-linenumber="14">
             
             
 
@@ -530,7 +541,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="14">
+          <li class="never" data-hits="" data-linenumber="15">
             
             
 
@@ -541,7 +552,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="15">
+          <li class="never" data-hits="" data-linenumber="16">
             
             
 
